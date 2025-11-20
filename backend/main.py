@@ -8,6 +8,8 @@ app = FastAPI()
 # Configure CORS
 origins = [
     "http://localhost:3000",
+    "https://ethanchiou.github.io",  # GitHub Pages where site is hosted
+    "https://www.ethanchiou.github.io",
 ]
 
 app.add_middleware(
